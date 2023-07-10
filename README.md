@@ -5,8 +5,8 @@
 и возвращает введенное значение. Ввод текста вместо числа не должно приводить к падению 
 приложения, вместо этого, необходимо повторно запросить у пользователя ввод данных.
 
-Реализация кода 
-[**FloatNumInput**]()
+### Реализация кода 
+[**FloatNumInput**](https://github.com/VeraNik1/ExeptionsHW2/blob/master/FloatNumInput.java)
 
 ### Примеры выполнения для различных вводов
 
@@ -36,7 +36,7 @@ System.out.println("catchedRes1 = " + catchedRes1);
 System.out.println("Catching exception: " + e);
 }
 ```
-Исправления [**TaskTwo**]()
+### Исправления [**TaskTwo**](https://github.com/VeraNik1/ExeptionsHW2/blob/master/TaskTwo.java)
 ```java
 /** 1. создаем отдельный метод по делению заданного элемента массива 
 целых чисел на заданное целое число, убираем хардкод **/
@@ -89,7 +89,7 @@ public static void printSum(Integer a, Integer b) throws FileNotFoundException {
 }
 
 ```
-### Исправления [**TaskThree**]()
+### Исправления [**TaskThree**](https://github.com/VeraNik1/ExeptionsHW2/blob/master/TaskThree.java)
 
 ```java
     public static void main(String[] args) { /** 1. убираю из main throws Exception*/
@@ -129,7 +129,7 @@ public static void printSum(Integer a, Integer b) throws NullPointerException
 вводит пустую строку. Пользователю должно показаться сообщение, 
 что пустые строки вводить нельзя.
 
-Решение приведено в файле [**EmptyString**]()
+Решение приведено в файле [**EmptyString**](https://github.com/VeraNik1/ExeptionsHW2/blob/master/EmptyString.java)
 
 Код:
 ```java
